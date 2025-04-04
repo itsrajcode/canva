@@ -1,9 +1,12 @@
+import { Button } from '@/components/ui/button'
 import React from 'react'
 
-export default function page() {
+function page() {
   return (
-    <div>page</div>
+    <div>
+      <Button>Button</Button>
+    </div>
   )
 }
 
-
+export default page
